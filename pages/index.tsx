@@ -24,8 +24,6 @@ export default function Home() {
             <li><Link href="/renderisr">Incremental Static Regeneration (ISR)</Link></li>
           </ul>
         </div>
-        <div>
-        </div>
       </main>
     </>
   )
