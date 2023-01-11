@@ -17,6 +17,7 @@ export default function SSGPage({ color }: any) {
     <div className={styles.crotainer}>
       <h1>Static Site Generation random inline color</h1>
       <Box color={color}/>
+      
     </div>
   )
 }
