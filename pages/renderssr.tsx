@@ -12,7 +12,7 @@ export async function getServerSideProps() {
   }
 }
 
-export default function About({ color }:any) {
+export default function SSRPage({ color }:any) {
   return (
     <div className={styles.crotainer}>
       <h1>Server Side Rendering random inline color</h1>

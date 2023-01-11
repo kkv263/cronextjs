@@ -12,7 +12,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function About({ color }: any) {
+export default function SSGPage({ color }: any) {
   return (
     <div className={styles.crotainer}>
       <h1>Static Site Generation random inline color</h1>

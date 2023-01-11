@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <div className={styles.crotainer}>
-          <h2>Below are demo links for SSG and SSR pulling from https://www.colr.org/json/color/random</h2>
+          <h2>Below are demo links for SSG, SSR, and ISR pulling from https://www.colr.org/json/color/random</h2>
           <ul>
             <li><Link href="/renderssg">Static Site Generation(SSG)</Link></li>
             <li><Link href="/renderssr">Server Side Rendering (SSR)</Link></li>
