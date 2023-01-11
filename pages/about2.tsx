@@ -15,9 +15,13 @@ export async function getServerSideProps() {
 }
 
 export default function About({ posts }:any) {
+  const random = Math.floor(Math.random() * posts.length);
   return (
     <ul className={styles.list}>
       <li><h1>About 2</h1></li>
+      <li>
+      <img src={posts[random].url}  />
+      </li>
       {posts.map((post:any, index:number) => (
         <li key={index}>{post.title}</li>
       ))}
