@@ -15,36 +15,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <div>
-          <h2>below are demo links for SSG and SSR pulling from https://jsonplaceholder.typicode.com/photos</h2>
+      <main className={styles.main}>
+        <div className={styles.crotainer}>
+          <h2>Below are demo links for SSG and SSR pulling from https://www.colr.org/json/color/random</h2>
           <ul>
-            <li><Link href="/about">about page link (SSG)</Link></li>
-            <li><Link href="/about2">about page 2 link (SSR)</Link></li>
+            <li><Link href="/renderssg">(SSG)</Link></li>
+            <li><Link href="/renderssr">(SSR)</Link></li>
           </ul>
-          <br></br>
-          <br></br>
         </div>
         <div>
-            This is the index page, <br></br>
-            <code className={styles.code}>oh look I have a class on me!</code>
-          <div>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Im a link and this is an image
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
         </div>
       </main>
     </>
