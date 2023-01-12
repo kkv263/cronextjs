@@ -20,3 +20,7 @@ export default function SSRPage({ color }:any) {
     </div>
   )
 }
+
+export const config = {
+  runtime: 'experimental-edge',
+};
