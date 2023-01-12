@@ -21,6 +21,6 @@ export default function SSRPage({ color }:any) {
   )
 }
 
-// export const config = {
-//   runtime: 'experimental-edge',
-// };
+export const config = {
+  runtime: 'experimental-edge',
+};
